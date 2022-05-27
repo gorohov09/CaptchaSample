@@ -6,7 +6,7 @@ namespace CaptchaSample.Controllers
     public class PortalController : Controller
     {
         [HttpGet]
-        public IActionResult Index()
+        public IActionResult Login()
         {
             return View();
         }
